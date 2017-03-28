@@ -1,8 +1,8 @@
-## Interface: 70100
-## X-Min-Interface: 70100
+## Interface: 70200
+## X-Min-Interface: 70200
 ## Title: PrivacyProtect
 ## Notes: Hides account achievements from others
 ## Author: Rachael Alexanderson
-## Version: v0.0
+## Version: v0.1
 ## X-eMail: allikitty@drdteam.org
 PrivacyProtect.lua
