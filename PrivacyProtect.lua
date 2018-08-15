@@ -8,13 +8,9 @@ end
 
 local frame = CreateFrame("FRAME", "PPFrame");
 frame:RegisterEvent("PLAYER_ENTERING_WORLD");
-frame:RegisterEvent("WORLD_MAP_UPDATE");
 
 local function PPeventHandler(self, event, ...)
 	if ( event == "PLAYER_ENTERING_WORLD" ) then
-		PPStart();
-	end
-	if ( event == "WORLD_MAP_UPDATE" ) then
 		PPStart();
 	end
 end
